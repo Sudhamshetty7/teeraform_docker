@@ -10,3 +10,5 @@ RUN unzip terraform_1.7.4_linux_amd64.zip -d /usr/local/bin/
 
 RUN rm terraform_1.7.4_linux_amd64.zip
 
+RUN apt-get update && apt-get install -y git
+
